@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem;
+    
+}
+
+.recipe-container{
+    border-radius: 10px;
+    width: 33%;
+    height: fit-content;
+    background-color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.2rem;
+}
+
+.recipe-size{
+    justify-content: center;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
+h1{
+    margin-left: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+
+}
+p{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    font-weight: 500;
+    font-size: 0.5rem;
+    word-spacing: 0.14rem;
+}
+
+.prep-section{
+    background-color: rgb(249, 241, 249);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-right: 1.2rem;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    border-radius: 0.4rem;
+    width: 90%;
+    margin: 1.2rem;
+    
+}
+
+h3{
+    padding-left: 0.6rem;
+    font-size: 0.6rem;
+    color: rgb(148, 31, 92);
+    line-height: 1.9rem;
+    font-family: sans-serif;
+}
+span{
+    font-weight: bold;
+    font-size: 0.6rem;
+    font-family: sans-serif;
+    color: black
+}
+
+.spn2{
+    color: black;
+    font-weight: 400;
+}
+.ul-prep-time{
+    padding-left: 1.8rem;
+}
+ul{
+    padding-left: 1.2rem;
+}
+
+.ingredients-section{
+    padding-bottom: 0.6;
+    padding-right: 10px;
+    font-size: 0.54rem;
+    line-height: 1.2rem;
+    width: 90%;
+    margin: 1.25rem;
+}
+h2{
+    margin-top: -0.6rem;
+    font-size: 1.2rem;
+    color: rgb(148, 31, 92);
+    line-height: 1.8rem;
+    font-family: serif;
+}
+.hr-line{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0.48rem;
+    width: 96%;
+    
+}
+ol{
+    padding-left: 0.9rem;
+}
+.nutrition-section{
+    margin: 1.25rem;
+    font-size: 0.54rem;
+}
+.table-p{
+    margin-left: 0rem;
+    font-size: 0.54rem;
+    word-spacing: -1px;
+    background-color:ed;
+    width: 100%;
+
+}
+table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 25px;
+
+  }
+  .line-style{
+    line-height: 1.55rem;
+  }
+.data-color{
+   color: rgb(123, 35, 35);
+   font-weight: bold;
+}
+
+@media (max-width: 375px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+        background-color: white;
+    }
+    section{
+        
+        margin: 0rem;
+    }
+    
+    .recipe-container{
+        width: 375px;
+        margin-top: -60px;
+    }
+    .recipe-size{
+       
+        width: 100%;
+    }
+    .prep-section{
+        background-color: rgb(249, 241, 249);
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+        border-radius: 0.4rem;
+        width: 86%;
+        margin: 1.2rem;
+    }
+    .attribution{
+        display: none;
+    }
+
+}
